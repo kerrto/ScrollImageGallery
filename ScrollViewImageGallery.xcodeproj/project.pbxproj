@@ -15,6 +15,14 @@
 		ABCCD59E1C5696D600033635 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABCCD59C1C5696D600033635 /* LaunchScreen.storyboard */; };
 		ABCCD5A91C5696D600033635 /* ScrollViewImageGalleryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCCD5A81C5696D600033635 /* ScrollViewImageGalleryTests.m */; };
 		ABCCD5B41C5696D600033635 /* ScrollViewImageGalleryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCCD5B31C5696D600033635 /* ScrollViewImageGalleryUITests.m */; };
+		ABCCD5C41C569AAD00033635 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = ABCCD5C21C569AAD00033635 /* Contents.json */; };
+		ABCCD5C51C569AAD00033635 /* Lighthouse-in-Field.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABCCD5C31C569AAD00033635 /* Lighthouse-in-Field.jpg */; };
+		ABCCD5C91C569ABB00033635 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = ABCCD5C71C569ABB00033635 /* Contents.json */; };
+		ABCCD5CA1C569ABB00033635 /* Lighthouse-night.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABCCD5C81C569ABB00033635 /* Lighthouse-night.jpg */; };
+		ABCCD5CE1C569AC600033635 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = ABCCD5CC1C569AC600033635 /* Contents.json */; };
+		ABCCD5CF1C569AC600033635 /* Lighthouse-night.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABCCD5CD1C569AC600033635 /* Lighthouse-night.jpg */; };
+		ABCCD5D31C569AD400033635 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = ABCCD5D11C569AD400033635 /* Contents.json */; };
+		ABCCD5D41C569AD400033635 /* Lighthouse.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABCCD5D21C569AD400033635 /* Lighthouse.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +59,14 @@
 		ABCCD5AF1C5696D600033635 /* ScrollViewImageGalleryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollViewImageGalleryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABCCD5B31C5696D600033635 /* ScrollViewImageGalleryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollViewImageGalleryUITests.m; sourceTree = "<group>"; };
 		ABCCD5B51C5696D600033635 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABCCD5C21C569AAD00033635 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		ABCCD5C31C569AAD00033635 /* Lighthouse-in-Field.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Lighthouse-in-Field.jpg"; sourceTree = "<group>"; };
+		ABCCD5C71C569ABB00033635 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		ABCCD5C81C569ABB00033635 /* Lighthouse-night.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Lighthouse-night.jpg"; sourceTree = "<group>"; };
+		ABCCD5CC1C569AC600033635 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		ABCCD5CD1C569AC600033635 /* Lighthouse-night.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Lighthouse-night.jpg"; sourceTree = "<group>"; };
+		ABCCD5D11C569AD400033635 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		ABCCD5D21C569AD400033635 /* Lighthouse.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Lighthouse.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +123,7 @@
 				ABCCD5951C5696D600033635 /* ViewController.m */,
 				ABCCD5971C5696D600033635 /* Main.storyboard */,
 				ABCCD59A1C5696D600033635 /* Assets.xcassets */,
+				ABCCD5C11C569AAD00033635 /* Lighthouse-in-Field.imageset */,
 				ABCCD59C1C5696D600033635 /* LaunchScreen.storyboard */,
 				ABCCD59F1C5696D600033635 /* Info.plist */,
 				ABCCD58E1C5696D600033635 /* Supporting Files */,
@@ -138,6 +155,49 @@
 				ABCCD5B51C5696D600033635 /* Info.plist */,
 			);
 			path = ScrollViewImageGalleryUITests;
+			sourceTree = "<group>";
+		};
+		ABCCD5C11C569AAD00033635 /* Lighthouse-in-Field.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				ABCCD5C61C569ABB00033635 /* Lighthouse-night.imageset */,
+				ABCCD5D01C569AD400033635 /* Lighthouse-zoomed.imageset */,
+				ABCCD5C21C569AAD00033635 /* Contents.json */,
+				ABCCD5CB1C569AC600033635 /* Lighthouse-night.imageset */,
+				ABCCD5C31C569AAD00033635 /* Lighthouse-in-Field.jpg */,
+			);
+			name = "Lighthouse-in-Field.imageset";
+			path = "../../../../Week 3/Day 1 Mon/Images.xcassets/Lighthouse-in-Field.imageset";
+			sourceTree = "<group>";
+		};
+		ABCCD5C61C569ABB00033635 /* Lighthouse-night.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				ABCCD5C71C569ABB00033635 /* Contents.json */,
+				ABCCD5C81C569ABB00033635 /* Lighthouse-night.jpg */,
+			);
+			name = "Lighthouse-night.imageset";
+			path = "../Lighthouse-night.imageset";
+			sourceTree = "<group>";
+		};
+		ABCCD5CB1C569AC600033635 /* Lighthouse-night.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				ABCCD5CC1C569AC600033635 /* Contents.json */,
+				ABCCD5CD1C569AC600033635 /* Lighthouse-night.jpg */,
+			);
+			name = "Lighthouse-night.imageset";
+			path = "../Lighthouse-night.imageset";
+			sourceTree = "<group>";
+		};
+		ABCCD5D01C569AD400033635 /* Lighthouse-zoomed.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				ABCCD5D11C569AD400033635 /* Contents.json */,
+				ABCCD5D21C569AD400033635 /* Lighthouse.jpg */,
+			);
+			name = "Lighthouse-zoomed.imageset";
+			path = "../Lighthouse-zoomed.imageset";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,8 +307,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABCCD59E1C5696D600033635 /* LaunchScreen.storyboard in Resources */,
+				ABCCD5CA1C569ABB00033635 /* Lighthouse-night.jpg in Resources */,
 				ABCCD59B1C5696D600033635 /* Assets.xcassets in Resources */,
+				ABCCD5CE1C569AC600033635 /* Contents.json in Resources */,
 				ABCCD5991C5696D600033635 /* Main.storyboard in Resources */,
+				ABCCD5D31C569AD400033635 /* Contents.json in Resources */,
+				ABCCD5C41C569AAD00033635 /* Contents.json in Resources */,
+				ABCCD5C51C569AAD00033635 /* Lighthouse-in-Field.jpg in Resources */,
+				ABCCD5C91C569ABB00033635 /* Contents.json in Resources */,
+				ABCCD5D41C569AD400033635 /* Lighthouse.jpg in Resources */,
+				ABCCD5CF1C569AC600033635 /* Lighthouse-night.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
