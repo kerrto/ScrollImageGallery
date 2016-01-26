@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  NewVC.h
 //  ScrollViewImageGallery
 //
 //  Created by Kerry Toonen on 2016-01-25.
@@ -7,10 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ViewController.h"
 
-@interface ViewController : UIViewController
+@interface NewVC : UIViewController
 
-@property (nonatomic,strong) UIView *containerView;
+@property (strong, nonatomic) UIImage *myImage;
 
 @end
-

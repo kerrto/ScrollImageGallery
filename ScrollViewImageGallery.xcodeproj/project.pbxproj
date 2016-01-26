@@ -23,6 +23,7 @@
 		ABCCD5CF1C569AC600033635 /* Lighthouse-night.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABCCD5CD1C569AC600033635 /* Lighthouse-night.jpg */; };
 		ABCCD5D31C569AD400033635 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = ABCCD5D11C569AD400033635 /* Contents.json */; };
 		ABCCD5D41C569AD400033635 /* Lighthouse.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABCCD5D21C569AD400033635 /* Lighthouse.jpg */; };
+		ABCCD5D71C56B49400033635 /* NewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCCD5D61C56B49400033635 /* NewVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,8 @@
 		ABCCD5CD1C569AC600033635 /* Lighthouse-night.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Lighthouse-night.jpg"; sourceTree = "<group>"; };
 		ABCCD5D11C569AD400033635 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
 		ABCCD5D21C569AD400033635 /* Lighthouse.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Lighthouse.jpg; sourceTree = "<group>"; };
+		ABCCD5D51C56B49400033635 /* NewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewVC.h; path = ../NewVC.h; sourceTree = "<group>"; };
+		ABCCD5D61C56B49400033635 /* NewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewVC.m; path = ../NewVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +124,8 @@
 				ABCCD5921C5696D600033635 /* AppDelegate.m */,
 				ABCCD5941C5696D600033635 /* ViewController.h */,
 				ABCCD5951C5696D600033635 /* ViewController.m */,
+				ABCCD5D51C56B49400033635 /* NewVC.h */,
+				ABCCD5D61C56B49400033635 /* NewVC.m */,
 				ABCCD5971C5696D600033635 /* Main.storyboard */,
 				ABCCD59A1C5696D600033635 /* Assets.xcassets */,
 				ABCCD5C11C569AAD00033635 /* Lighthouse-in-Field.imageset */,
@@ -342,6 +347,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABCCD5961C5696D600033635 /* ViewController.m in Sources */,
+				ABCCD5D71C56B49400033635 /* NewVC.m in Sources */,
 				ABCCD5931C5696D600033635 /* AppDelegate.m in Sources */,
 				ABCCD5901C5696D600033635 /* main.m in Sources */,
 			);
