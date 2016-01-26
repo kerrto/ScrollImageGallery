@@ -76,12 +76,17 @@
 -(void)scrollViewDidScroll:(UIScrollView *)scrollView{
     
     CGPoint i=self.scrollView.contentOffset;
-    if (i.x>0 && i.x<CGRectGetWidth(self.view.frame)) {
-    self.pageController.currentPage=1;}
-    else if (i.x>CGRectGetWidth(self.view.frame) && i.x<CGRectGetWidth(self.view.frame)*2){
-        self.pageController.currentPage=2;}
-    else if (i.x>CGRectGetWidth(self.view.frame)*3){
-        self.pageController.currentPage=3;}
+    int pageNum = round(i.x / CGRectGetWidth(self.view.frame));
+//    if (i.x<=CGRectGetWidth(self.view.frame)) {
+//    self.pageController.currentPage=0;}
+//    else if (i.x>=CGRectGetWidth(self.view.frame) && i.x<CGRectGetWidth(self.view.frame)*2){
+//        self.pageController.currentPage=1;}
+//    else if (i.x>=CGRectGetWidth(self.view.frame)*2 && i.x>CGRectGetWidth(self.view.frame)*3){
+//        self.pageController.currentPage=2;}
+//
+    self.pageController.currentPage = pageNum;
+    NSLog(@"Current x: %f", i.x);
+    NSLog(@"Current page: %ld", (long)self.pageController.currentPage);
     }
 
 - (void)didReceiveMemoryWarning {
